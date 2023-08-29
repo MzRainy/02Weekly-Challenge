@@ -1,12 +1,31 @@
 body {
   border: red 3px dashed;
   width: 100%;
+   border: black 2px solid;
+  color: navy;
+  background-color: antiquewhite;
 }
 header {
   border: red 3px solid;
   display:flex;
   width: 20%;
 }
+
+div {
+  border: red 2px dashed;
+  display: flex;
+  width: 20%;
+  }
+
+  main {
+    display: flex;
+    border: red 2 px dashed;
+    width: 75%;
+  }
+
+  nav ul li {
+    border: red 2px dashed;
+  }
 
 header p {
   border: black 2px solid;
@@ -18,9 +37,6 @@ main  p {
   width: 75%;
   display: flex;
   }
-
-
-  
  
  .card {
    border: red  solid 3px;
