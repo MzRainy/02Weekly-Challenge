@@ -3,11 +3,18 @@ body {
   width: 100%;
    border: black 2px solid;
   color: navy;
-  background-color: antiquewhite;
+  background-color: whitesmoke;
 }
 header {
   border: red 3px solid;
   display:flex;
+  width: 20%;
+}
+
+p {
+  border: black 2px solid;
+  display: flex;
+  margin: 10px 0px 10px 0px;
   width: 20%;
 }
 
@@ -24,24 +31,29 @@ div {
   }
 
   nav ul li {
-    border: red 2px dashed;
+    border: red 2px dashed
+    width: 20%;
+    margin-bottom: 20px;
   }
 
-header p {
-  border: black 2px solid;
-  display: flow-root;
-  width: 20%
-}
+  .first-project{
+    border: blueviolet 3px solid;
+    width: 75%;
+    display: flexbox;
+    float: right;
+  }
+  
+
 main  p {
   border: blueviolet 3px dashed;
   width: 75%;
-  display: flex;
   }
  
  .card {
-   border: red  solid 3px;
+    border: red  solid 3px;
     display: flexbox;
     flex: 25%;
     flex-wrap: wrap;
     width: 75%;
+    margin: 10px;
   }
