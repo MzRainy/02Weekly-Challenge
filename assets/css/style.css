@@ -1,8 +1,14 @@
-body{
-  border: black 2px solid;
+body {
+  border: red 3px dashed;
+  width: 100%;
+   border: black 2px solid;
   color: navy;
   background-color: antiquewhite;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header {
+  border: red 3px solid;
+  display:flex;
+  width: 20%;
 }
 
 div {
@@ -20,10 +26,22 @@ div {
   nav ul li {
     border: red 2px dashed;
   }
-  
 
-
-  .card {
+header p {
+  border: black 2px solid;
+  display: flow-root;
+  width: 20%
+}
+main  p {
+  border: blueviolet 3px dashed;
+  width: 75%;
+  display: flex;
+  }
+ 
+ .card {
+   border: red  solid 3px;
+    display: flexbox;
     flex: 25%;
     flex-wrap: wrap;
+    width: 75%;
   }
