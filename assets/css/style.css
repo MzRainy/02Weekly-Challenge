@@ -1,12 +1,5 @@
 .header {
-    width: 30%;
-    padding-left: 15px;
-    padding-top: 300px;
-    padding-bottom: 300px;
-    margin-left: 100px;
-    float: left;
-    font-style: italic;
-    background-color: lightgray;
+    flex-box;
   }
 
   nav ul li {
