@@ -5,18 +5,23 @@ body{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.header {
-display: flex;
+div {
+  border: red 2px dashed;
+  display: flex;
+  width: 20%;
+  }
+
+  main {
+    display: flex;
+    border: red 2 px dashed;
+    width: 75%;
   }
 
   nav ul li {
-    float: left;
+    border: red 2px dashed;
   }
   
-  .dark-mode {
-    background-color: black;
-    color: white;
-  }
+
 
   .card {
     flex: 25%;
