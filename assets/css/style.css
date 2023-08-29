@@ -1,17 +1,31 @@
-.header {
-    flex-box;
+body {
+  border: red 3px dashed;
+  width: 100%;
+}
+header {
+  border: red 3px solid;
+  display:flex;
+  width: 20%;
+}
+
+header p {
+  border: black 2px solid;
+  display: flow-root;
+  width: 20%
+}
+main  p {
+  border: blueviolet 3px dashed;
+  width: 75%;
+  display: flex;
   }
 
-  nav ul li {
-    float: left;
-  }
+
   
-  .dark-mode {
-    background-color: black;
-    color: white;
-  }
-
-  .card {
+ 
+ .card {
+   border: red  solid 3px;
+    display: flexbox;
     flex: 25%;
     flex-wrap: wrap;
+    width: 75%;
   }
