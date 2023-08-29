@@ -1,5 +1,12 @@
+body{
+  border: black 2px solid;
+  color: navy;
+  background-color: antiquewhite;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 .header {
-    flex-box;
+display: flex;
   }
 
   nav ul li {
