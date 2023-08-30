@@ -5,7 +5,7 @@ body {
   color: navy;
   background-color: whitesmoke;
 }
-header {
+.header {
   border: red 3px solid;
   display:flex;
   width: 20%;
@@ -18,7 +18,7 @@ p {
   width: 20%;
 }
 
-div {
+.content {
   border: red 2px dashed;
   display: flex;
   width: 20%;
@@ -30,7 +30,7 @@ div {
     width: 75%;
   }
 
-  nav ul li {
+ div nav ul li {
     border: red 2px dashed;
     width: 20%;
     margin-bottom: 20px;
@@ -41,6 +41,12 @@ div {
     width: 75%;
     display: flex;
     float: right;
+  }
+
+  .content {
+    display: flex;
+    width: 75%
+
   }
 
 
