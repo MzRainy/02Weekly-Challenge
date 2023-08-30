@@ -1,65 +1,33 @@
 body {
   border: red 3px dashed;
   width: 100%;
-   border: black 2px solid;
-  color: navy;
+  border: black 2px solid;
+  color: cadetblue;
   background-color: whitesmoke;
 }
+
 .header {
   border: red 3px solid;
-  display:flex;
-  width: 20%;
-}
-
-p {
-  border: black 2px solid;
+  background-color:cadetblue;
+  color: whitesmoke;
   display: flex;
-  margin: 10px 0px 10px 0px;
-  width: 20%;
-}
+  flex-direction: column;
+  width:20%;
 
-.content {
-  border: red 2px dashed;
+  }
+
+ .content {
   display: flex;
-  width: 20%;
+  border: blue 3px solid;
+  width: 75px%;
   }
 
-  main {
+  .first-project {
+   border: blue 3px dashed;    
+  }
+
+  article {
     display: flex;
-    border: red 2 px dashed;
+    border: blue 3px dashed;
     width: 75%;
-  }
-
- div nav ul li {
-    border: red 2px dashed;
-    width: 20%;
-    margin-bottom: 20px;
-  }
-
-  .first-project{
-    border: blueviolet 3px solid;
-    width: 75%;
-    display: flex;
-    float: right;
-  }
-
-  .content {
-    display: flex;
-    width: 75%
-
-  }
-
-
-main  p {
-  border: blueviolet 3px dashed;
-  width: 75%;
-  }
- 
- .card {
-    border: red  solid 3px;
-    display: flex;
-    flex: 25%;
-    flex-wrap: wrap;
-    width: 75%;
-    margin: 10px;
   }
