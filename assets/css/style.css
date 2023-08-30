@@ -31,7 +31,7 @@ div {
   }
 
   nav ul li {
-    border: red 2px dashed
+    border: red 2px dashed;
     width: 20%;
     margin-bottom: 20px;
   }
@@ -39,10 +39,10 @@ div {
   .first-project{
     border: blueviolet 3px solid;
     width: 75%;
-    display: flexbox;
+    display: flex;
     float: right;
   }
-  
+
 
 main  p {
   border: blueviolet 3px dashed;
@@ -51,7 +51,7 @@ main  p {
  
  .card {
     border: red  solid 3px;
-    display: flexbox;
+    display: flex;
     flex: 25%;
     flex-wrap: wrap;
     width: 75%;
