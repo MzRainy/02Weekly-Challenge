@@ -1,59 +1,43 @@
 body {
-  border: red 3px dashed;
   width: 100%;
-   border: black 2px solid;
-  color: navy;
+  border: black 2px solid;
+  color: cadetblue;
   background-color: whitesmoke;
 }
-header {
+
+.header {
   border: red 3px solid;
   display:flex;
+  color: whitesmoke;
+  background-color: cadetblue;
+  text-align: center;
+  flex-direction: column;
   width: 20%;
+  height:max-content;
 }
 
-p {
-  border: black 2px solid;
-  display: flex;
-  margin: 10px 0px 10px 0px;
-  width: 20%;
+.header p {
+  border: red 3px dashed;
 }
+nav ul {
+  text-align: justify;
+ }
 
-div {
-  border: red 2px dashed;
+ .my-projects {
+  border: solid 3px black;
   display: flex;
-  width: 20%;
-  }
-
-  main {
-    display: flex;
-    border: red 2 px dashed;
-    width: 75%;
-  }
-
-  nav ul li {
-    border: red 2px dashed;
-    width: 20%;
-    margin-bottom: 20px;
-  }
-
-  .first-project{
-    border: blueviolet 3px solid;
-    width: 75%;
-    display: flex;
-    float: right;
-  }
-
-
-main  p {
-  border: blueviolet 3px dashed;
+  flex-wrap: wrap;
   width: 75%;
-  }
+  padding-left: 25%;
+   }
+
+ .first-project {
+  display: flex;
+   }
  
  .card {
-    border: red  solid 3px;
-    display: flex;
-    flex: 25%;
-    flex-wrap: wrap;
-    width: 75%;
-    margin: 10px;
-  }
+  border: black 3px dashed;
+  display: flex;
+  width: 40%;
+
+ }
