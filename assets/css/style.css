@@ -55,6 +55,7 @@ nav ul li {
   margin-bottom: 20px;
   padding: 50px;
   height: 200px;
+  width: 75%
 }
 
 div h2 {
@@ -67,8 +68,10 @@ div h2 {
 
 span {
   text-transform: uppercase ;
+  border: whitesmoke 1px;
   text-shadow: 5px;
-  cursor: grab;
+  cursor: pointer;
+  float: right;
 }
 
  .my-projects {
