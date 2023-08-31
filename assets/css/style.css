@@ -8,6 +8,10 @@ body {
  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+a {
+ color: whitesmoke; 
+}
+
 .header {
   display:flex;
   color: whitesmoke;
@@ -17,16 +21,18 @@ body {
   margin-left: 20px;
   padding: -20px;
   clear: both;
-  width: 25%;
+  width: 30%;
   height: 100%;
 }
 
 .header p {
   border: red 3px dashed;
   font-size: 12px;
+  padding-bottom: 20px;
 }
 nav ul li {
-  text-align: justify;
+  text-align: left;
+  padding-left: 20px;
   padding-bottom: 20px;
 
  }
@@ -45,6 +51,7 @@ nav ul li {
   }
 }
 .aboutme {
+  background-image: image();
   display: flex;
   margin-bottom: 20px;
   padding: 50px;
@@ -88,6 +95,8 @@ span {
   width: 40%;
   margin: 0px 20px;
  }
+
+ 
 
  .img {
   width: 200px;
