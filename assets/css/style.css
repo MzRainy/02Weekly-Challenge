@@ -1,5 +1,5 @@
 body {
- background-image: ;
+ background-image: url("../images/annie-spratt-0ZPSX_mQ3xI-unsplash.jpg");
  background-color: #cccccc;
  border: black 2px solid;
  color: cadetblue;
@@ -34,9 +34,8 @@ nav ul li {
   text-align: left;
   padding-left: 20px;
   padding-bottom: 20px;
-
  }
-
+   
  @media screen and (max-width: 992px) {
   .my-projects {
     width: 50%;
@@ -58,12 +57,19 @@ nav ul li {
   height: 200px;
 }
 
+div h2 {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: justify;
+  width: 40%;
+  margin: 0px 20px;
+}
+
 span {
   text-transform: uppercase ;
   text-shadow: 5px;
   cursor: grab;
 }
-
 
  .my-projects {
   float: left;
@@ -89,16 +95,24 @@ span {
    text-size-adjust:inherit;
     }
  
+  
  .card {
   border:cadetblue 2px solid;
   display: flex;
+  flex-wrap: wrap;
+  text-align: justify;
   width: 40%;
   margin: 0px 20px;
  }
 
- 
+ .title-body{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: justify;
+ }
 
  .img {
+  display:flex;
   width: 200px;
   height: auto;
  }
