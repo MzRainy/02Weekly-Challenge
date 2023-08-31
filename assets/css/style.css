@@ -1,22 +1,23 @@
 body {
-  width: 100%;
-  border: black 2px solid;
-  color: cadetblue;
-  background-color: whitesmoke;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ background-image: ;
+ background-color: #cccccc;
+ border: black 2px solid;
+ color: cadetblue;
+ display: flex;
+ background-color: whitesmoke;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .header {
-  border: red 3px solid;
   display:flex;
   color: whitesmoke;
-  background-color: cadetblue;
+  background-color: rgb(137, 190, 192);
   text-align: center;
   flex-direction: column; 
   margin-left: 20px;
-  padding: 20px;
+  padding: -20px;
   clear: both;
-  width: 15%;
+  width: 25%;
   height: 100%;
 }
 
@@ -41,26 +42,24 @@ nav ul li {
     width: 100%;
     background-color: whitesmoke;
     color: cadetblue;
-
   }
 }
-.aboutme{
+.aboutme {
   display: flex;
   margin-bottom: 20px;
   padding: 50px;
   height: 200px;
 }
+
 span {
   text-transform: uppercase ;
   text-shadow: 5px;
   cursor: grab;
-
 }
 
 
  .my-projects {
   float: left;
-  border: solid 3px black;
   width: 75%;
   display: flex;
   flex-wrap: wrap;
@@ -68,21 +67,23 @@ span {
  
    }
 
- .first-project {
-  border: black 3px dashed;
+ .first-project:hover {
+  background-color: cadetblue;
+  color:whitesmoke;
+  border: cadetblue 2px solid;
   margin-bottom: 20px;
   height: auto;
   width: 75%;
   float: right;
    }
 
-   .first-project h2 {
+  .first-project h2 {
    text-align:justify;
    text-size-adjust:inherit;
     }
  
  .card {
-  border: black 3px dashed;
+  border:cadetblue 2px solid;
   display: flex;
   width: 40%;
   margin: 0px 20px;
