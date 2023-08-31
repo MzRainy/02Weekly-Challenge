@@ -1,33 +1,104 @@
 body {
-  border: red 3px dashed;
-  width: 100%;
-  border: black 2px solid;
-  color: cadetblue;
-  background-color: whitesmoke;
+ background-image: ;
+ background-color: #cccccc;
+ border: black 2px solid;
+ color: cadetblue;
+ display: flex;
+ background-color: whitesmoke;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a {
+ color: whitesmoke; 
 }
 
 .header {
-  border: red 3px solid;
-  background-color:cadetblue;
+  display:flex;
   color: whitesmoke;
-  display: flex;
-  flex-direction: column;
-  width:20%;
+  background-color: rgb(137, 190, 192);
+  text-align: center;
+  flex-direction: column; 
+  margin-left: 20px;
+  padding: -20px;
+  clear: both;
+  width: 30%;
+  height: 100%;
+}
 
+.header p {
+  border: red 3px dashed;
+  font-size: 12px;
+  padding-bottom: 20px;
+}
+nav ul li {
+  text-align: left;
+  padding-left: 20px;
+  padding-bottom: 20px;
+
+ }
+
+ @media screen and (max-width: 992px) {
+  .my-projects {
+    width: 50%;
   }
+}
 
- .content {
-  display: flex;
-  border: blue 3px solid;
-  width: 75px%;
-  }
-
-  .first-project {
-   border: blue 3px dashed;    
-  }
-
+ @media screen and (max-width: 600px) {
   article {
-    display: flex;
-    border: blue 3px dashed;
-    width: 75%;
+    width: 100%;
+    background-color: whitesmoke;
+    color: cadetblue;
   }
+}
+.aboutme {
+  background-image: image();
+  display: flex;
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 200px;
+}
+
+span {
+  text-transform: uppercase ;
+  text-shadow: 5px;
+  cursor: grab;
+}
+
+
+ .my-projects {
+  float: left;
+  width: 75%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px 20px 20px 20px;
+ 
+   }
+
+ .first-project:hover {
+  background-color: cadetblue;
+  color:whitesmoke;
+  border: cadetblue 2px solid;
+  margin-bottom: 20px;
+  height: auto;
+  width: 75%;
+  float: right;
+   }
+
+  .first-project h2 {
+   text-align:justify;
+   text-size-adjust:inherit;
+    }
+ 
+ .card {
+  border:cadetblue 2px solid;
+  display: flex;
+  width: 40%;
+  margin: 0px 20px;
+ }
+
+ 
+
+ .img {
+  width: 200px;
+  height: auto;
+ }
