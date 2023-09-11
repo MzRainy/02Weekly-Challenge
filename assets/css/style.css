@@ -19,22 +19,22 @@ a {
   text-align: center;
   flex-direction: column; 
   margin-left: 20px;
-  padding: -20px;
+  padding:20px;
   clear: both;
   width: 30%;
   height: 100vh;
 }
 
 .header p {
-  border: red 3px dashed;
-  font-size: 12px;
-  padding-bottom: 20px;
+   font-size: 12px;
+  padding: 5px 0px 20px 0px;
 }
 nav ul li {
   text-align: left;
   padding-left: 20px;
   padding-bottom: 20px;
  }
+<<<<<<< HEAD
    
  @media screen and (max-width: 992px) {
   .my-projects {
@@ -86,38 +86,54 @@ span {
   display: flex;
 }
  .first-project:hover {
+=======
+ 
+ .aboutme {
+  display: flex;
+  width: 80%;
+  height: 200px;
+  padding: 30px;  
+}
+.first-project:hover {
+  display: flex;
+>>>>>>> d89a84ed54bc8ac1b49500b8b80fc15ba4b60a43
   background-color: cadetblue;
   color:whitesmoke;
   border: cadetblue 2px solid;
   margin-bottom: 20px;
-  height: auto;
   width: 75%;
-  float: right;
+  height: fit-content;
+  float: left;
    }
 
-  .first-project h2 {
-   text-align:justify;
-   text-size-adjust:inherit;
-    }
- 
-  
- .card {
+.my-projects {
+  float: left;
+  width: 75%;
+  display: flex;
+  flex-wrap: wrap;
+  height:auto;
+  margin: 20px 20px 20px 20px;
+  }
+
+.img {
+  display: flex;
+  flex-wrap: wrap;
+  height: 150px;
+}
+
+.title-body {
+  display: flex;
+  flex-wrap: wrap;
+  text-align:left;
+  padding: 10px;
+}
+
+.card {
   border:cadetblue 2px solid;
   display: flex;
   flex-wrap: wrap;
-  text-align: justify;
-  width: 40%;
+  text-align: left;
+  width: 25%;
   margin: 0px 20px;
  }
 
- .title-body{
-  display: flex;
-  flex-wrap: wrap;
-  text-align: justify;
- }
-
- .img {
-  display:flex;
-  width: 200px;
-  height: auto;
- }
