@@ -34,7 +34,6 @@ nav ul li {
   padding-left: 20px;
   padding-bottom: 20px;
  }
-<<<<<<< HEAD
    
  @media screen and (max-width: 992px) {
   .my-projects {
@@ -51,7 +50,9 @@ nav ul li {
 }
 .aboutme {
   background-image: image();
+  border: rgb(66, 140, 143) solid 2px;
   display: flex;
+
   margin-bottom: 20px;
   padding: 50px;
   height: 200px;
@@ -66,14 +67,6 @@ div h2 {
   margin: 0px 20px;
 }
 
-span {
-  text-transform: uppercase ;
-  border: whitesmoke 1px;
-  text-shadow: 5px;
-  cursor: pointer;
-  float: right;
-}
-
  .my-projects {
   float: left;
   width: 75%;
@@ -84,25 +77,18 @@ span {
    }
 .first-project {
   display: flex;
-}
+  border: cadetblue 2px solid;
+  margin-bottom: 20px;
+  width: 75%;
+  float: left;
+   }
+
  .first-project:hover {
-=======
- 
- .aboutme {
-  display: flex;
-  width: 80%;
-  height: 200px;
-  padding: 30px;  
-}
-.first-project:hover {
-  display: flex;
->>>>>>> d89a84ed54bc8ac1b49500b8b80fc15ba4b60a43
   background-color: cadetblue;
   color:whitesmoke;
   border: cadetblue 2px solid;
   margin-bottom: 20px;
   width: 75%;
-  height: fit-content;
   float: left;
    }
 
@@ -110,14 +96,12 @@ span {
   float: left;
   width: 75%;
   display: flex;
-  flex-wrap: wrap;
   height:auto;
   margin: 20px 20px 20px 20px;
   }
 
 .img {
   display: flex;
-  flex-wrap: wrap;
   height: 150px;
 }
 
@@ -129,11 +113,21 @@ span {
 }
 
 .card {
-  border:cadetblue 2px solid;
-  display: flex;
-  flex-wrap: wrap;
+  color: cadetblue;
+  border: cadetblue 2px solid;
   text-align: left;
+  margin-bottom: 20px;
   width: 25%;
   margin: 0px 20px;
  }
 
+ 
+  .card:hover {
+    background-color: cadetblue;
+    color:whitesmoke;
+    border: cadetblue 2px solid;
+    margin-bottom: 20px;
+    width: 25%;
+    margin: 0px 20px;
+    
+   }
